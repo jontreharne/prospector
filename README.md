@@ -22,3 +22,7 @@ Get a terminal session in a directory above your python code. execute the follow
 ```prospector```
 
 This will now lint your python code with the prospector tool.
+
+# Also available
+
+At Docker Hub https://hub.docker.com/r/jon2thet/prospector
