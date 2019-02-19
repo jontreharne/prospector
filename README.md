@@ -7,18 +7,18 @@ How do i do this?
 
 Setup an Alias in your bash/shell profile:
 
-vi ~/.bash_profile
+```vi ~/.bash_profile```
 
 insert the following:
 
-alias prospector="docker run -it -w /home -v $(PWD):/home jon2thet/prospector:latest"
+```alias prospector="docker run -it -w /home -v $(PWD):/home jon2thet/prospector:latest"```
 
 You will now need to source your ~/.bash_profile by running:
 
-source ~/.bash_profile
+```source ~/.bash_profile```
 
 Get a terminal session in a directory above your python code. execute the following command:
 
-prospector
+```prospector```
 
 This will now lint your python code with the prospector tool.
