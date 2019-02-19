@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-LABEL mainatainer "jon.treharne@googlemail.com"
+LABEL maintainer "jon.treharne@googlemail.com"
 
 RUN apk upgrade
 
